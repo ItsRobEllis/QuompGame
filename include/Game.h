@@ -12,7 +12,7 @@ private:
   int m_fps;
 
 public:
-  void InitAllegro(int _screenX, int _screenY);
+  int InitAllegro(int _screenX, int _screenY);
   
 };
 
