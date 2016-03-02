@@ -32,3 +32,5 @@ int Game::InitAllegro(int _screenX, int _screenY)
   //Clear to white
   clear_to_color(screen, makecol(255, 255, 255));
 }
+
+//int Game::

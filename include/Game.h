@@ -11,9 +11,11 @@ private:
 
   int m_fps;
 
+  enum GameState{PLAYING,MENU,LOST,PAUSE};
+
 public:
   int InitAllegro(int _screenX, int _screenY);
-  
+  void 
 };
 
 #endif // _GAME_H_
