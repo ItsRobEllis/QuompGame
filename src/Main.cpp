@@ -3,15 +3,9 @@
 int main()
 {
   Game *game = new Game;
-  game->InitAllegro(1024, 768);
-
-  //game->ChangeGameState(MENU);
- 
-  //Release the screen
-  release_screen();
- 
-  //Wait for keypress
-  readkey();
+  game->Init(1024, 768); //Initialise Allegro4 & classes
+  game->Update(); //The main game loop
+  game->Quit(); //Unloads everything gracefully
   return 0;
 }
 
